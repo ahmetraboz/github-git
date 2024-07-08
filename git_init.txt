@@ -32,6 +32,6 @@ GİT IŞ AKIŞI
 Working directory(çalışma dizini)-(add)-> Staging Area(Geçiş Bölgesi)-(commit)-> Git Repository(git deposu)
 
 
-
+pull denemesi yapıyorum 
  
 
