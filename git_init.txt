@@ -26,7 +26,7 @@ git checkout --  klasör ismi : yapılan değişikliği geri getirir ya da silin
 git reset HEAD klasör ismi : (geçiş bölggesi)
 git checkout -- klasör ismi : (geçiş bölgesi)
 git checkout 9af6e8aedd4b6c9ffce974a3cb9158953061b80f -- . : istediğimiz versiyona geri çevirir
-
+git remote add raboz https://github.com/ahmetraboz/github-git : origin gibi istediğimiz kelimeyi ekleyebiliyoruz githuba puşlamak için 
 
 GİT IŞ AKIŞI
 Working directory(çalışma dizini)-(add)-> Staging Area(Geçiş Bölgesi)-(commit)-> Git Repository(git deposu)
