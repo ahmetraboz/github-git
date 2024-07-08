@@ -17,6 +17,10 @@ git add . : bütün dosyuaları git deposuna ekler yeterli değil şuan geçiş 
 git commit -m "ilk kommit" : bi kopyası oluşturulur 
 git log : aldığımız kopyaları sıralarr
 git status : projenizdeki değişiklikleri gösterir depoyla arasında bir fark yoksa bişey göstermez
+ git diff : status komutuyla görünteleyebildiğimiz modify işlemlerinin içeriğine neler değiştirdiğini gösterir
+
+GİT IŞ AKIŞI
+Working directory(çalışma dizini)-(add)-> Staging Area(Geçiş Bölgesi)-(commit)-> Git Repository(git deposu)
 
 
 
