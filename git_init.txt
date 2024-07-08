@@ -18,7 +18,8 @@ git commit -m "ilk kommit" : bi kopyası oluşturulur
 git log : aldığımız kopyaları sıralarr
 git status : projenizdeki değişiklikleri gösterir depoyla arasında bir fark yoksa bişey göstermez
  git diff : status komutuyla görünteleyebildiğimiz modify işlemlerinin içeriğine neler değiştirdiğini gösterir
-
+git rm ahmet : ahmet dosyasını silmiştik sildiğimiz dosyayı geçiş bölgesine yollar
+git rm boz : boz dosyasını silmedik daha bunu yaprığımızda boz silinir bundan sonra commit ediyoruz mesajı silindi olarak girebilirsin 
 GİT IŞ AKIŞI
 Working directory(çalışma dizini)-(add)-> Staging Area(Geçiş Bölgesi)-(commit)-> Git Repository(git deposu)
 
