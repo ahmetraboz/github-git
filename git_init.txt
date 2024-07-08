@@ -20,11 +20,11 @@ git status : projenizdeki değişiklikleri gösterir depoyla arasında bir fark 
  git diff : status komutuyla görünteleyebildiğimiz modify işlemlerinin içeriğine neler değiştirdiğini gösterir
 git rm ahmet : ahmet dosyasını silmiştik sildiğimiz dosyayı geçiş bölgesine yollar
 git rm boz : boz dosyasını silmedik daha bunu yaprığımızda boz silinir bundan sonra commit ediyoruz mesajı silindi olarak girebilirsin
-git mv : git mv git_init.txt git_init2.txt ismini değiştirdik
-git mv : git mv git_init2.txt dosyalar/ dosyayı klasör içine taşıdık
-
-
-
+git mv : git mv git_init.txt git_init2.txt ismini değiştirdik(çalışma dizini)
+git mv : git mv git_init2.txt dosyalar/ dosyayı klasör içine taşıdık(çalışma diizni)
+git checkout --  klasör ismi : yapılan değişikliği geri getirir ya da silinen dosyayı geri getirir
+git reset HEAD klasör ismi : (geçiş bölggesi)
+git checkout -- klasör ismi : (geçiş bölgesi)
 
 
 GİT IŞ AKIŞI
