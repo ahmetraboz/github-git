@@ -1,0 +1,36 @@
+***ilk git gönderim***
+Versiyon kontrol sistemidir. Projelerin versiyonlarının kopyasını tutar.
+Yanlışlıkla hata yaparsak istediğimiz tarihte kaydettiğimiz kopyayı gitten edinebilriz.
+Git yüklediğimizde birden fazla uygulama görünüyor.Farkları karşımıza çıkan arayüzlerdir.
+Örneğin ; Git GUI: (GRAFİCAL USER INTERFACE) grafiksel bir arayüz sunar. Git bash ve cmd ise metin tabanlı arayüzlerdir. (farkı syntax yani yazım şeklidir)
+git içerisinde git config --global user.name "ahmet boz --> bu kod ahmet boz ismini sisteme kaydeder aynı türle mailimizi de sisteme kaydedebiliriz.
+Bunu yapmamızın sebebi birden fazla kişinin çalıştığı projelerde alınan versiyonların karışmaması.
+
+ISE YARAYACAK KOMUTLAR
+pwd : terminalin bulunduğu dizinin tam adresini bize verir.
+ls : bulunduğumuz dizin üzerindeki diiznleri ve dizinleri listeler
+cd : dizin değiştirir ( boşluk bırakıp desktop yazarsak desktop dizinine geçmiş oluruz)
+clear : terminali temizler (ctrl+l kısayoluyla da yapılabilir)
+git init : klasörü git hub projesi yapar
+ls -a : gizli doyaları listler (. git : gitle alakalı dosyalar vardır takip eder ve kaydeder diyebiliriz)
+git add . : bütün dosyuaları git deposuna ekler yeterli değil şuan geçiş kısmında
+git commit -m "ilk kommit" : bi kopyası oluşturulur 
+git log : aldığımız kopyaları sıralarr
+git status : projenizdeki değişiklikleri gösterir depoyla arasında bir fark yoksa bişey göstermez
+ git diff : status komutuyla görünteleyebildiğimiz modify işlemlerinin içeriğine neler değiştirdiğini gösterir
+git rm ahmet : ahmet dosyasını silmiştik sildiğimiz dosyayı geçiş bölgesine yollar
+git rm boz : boz dosyasını silmedik daha bunu yaprığımızda boz silinir bundan sonra commit ediyoruz mesajı silindi olarak girebilirsin
+git mv : git mv git_init.txt git_init2.txt ismini değiştirdik
+git mv : git mv git_init2.txt dosyalar/ dosyayı klasör içine taşıdık
+
+
+
+
+
+GİT IŞ AKIŞI
+Working directory(çalışma dizini)-(add)-> Staging Area(Geçiş Bölgesi)-(commit)-> Git Repository(git deposu)
+
+
+
+ 
+
