@@ -16,8 +16,7 @@ ls -a : gizli doyaları listler (. git : gitle alakalı dosyalar vardır takip e
 git add . : bütün dosyuaları git deposuna ekler yeterli değil şuan geçiş kısmında
 git commit -m "ilk kommit" : bi kopyası oluşturulur 
 git log : aldığımız kopyaları sıralarr
-
-terminal 2
+git status : projenizdeki değişiklikleri gösterir depoyla arasında bir fark yoksa bişey göstermez
 
 
 
