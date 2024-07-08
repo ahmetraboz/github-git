@@ -1,4 +1,4 @@
-***ilk git gönderim***
+*** GİT BAŞLANGIÇ ***
 Versiyon kontrol sistemidir. Projelerin versiyonlarının kopyasını tutar.
 Yanlışlıkla hata yaparsak istediğimiz tarihte kaydettiğimiz kopyayı gitten edinebilriz.
 Git yüklediğimizde birden fazla uygulama görünüyor.Farkları karşımıza çıkan arayüzlerdir.
@@ -25,6 +25,7 @@ git mv : git mv git_init2.txt dosyalar/ dosyayı klasör içine taşıdık(çal�
 git checkout --  klasör ismi : yapılan değişikliği geri getirir ya da silinen dosyayı geri getirir
 git reset HEAD klasör ismi : (geçiş bölggesi)
 git checkout -- klasör ismi : (geçiş bölgesi)
+git checkout 9af6e8aedd4b6c9ffce974a3cb9158953061b80f -- . : istediğimiz versiyona geri çevirir
 
 
 GİT IŞ AKIŞI
