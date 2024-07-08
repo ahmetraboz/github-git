@@ -14,4 +14,4 @@ clear : terminali temizler (ctrl+l kısayoluyla da yapılabilir)
 git init : klasörü git hub projesi yapar
 ls -a : gizli doyaları listler (. git : gitle alakalı dosyalar vardır takip eder ve kaydeder diyebiliriz)
 
-terminal deneme
+terminal deneme1
